@@ -1,0 +1,11 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dark_forest": "2023-05-26 11:53:56 -0500",
+      "minecraft:river": "2023-05-26 11:55:25 -0500",
+      "minecraft:jungle": "2023-05-26 11:55:26 -0500"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

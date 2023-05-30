@@ -1,0 +1,61 @@
+{
+  "mod_elements": [
+    {
+      "name": "Lukas",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lukas",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lukas/models/item/lukas_spawn_egg.json",
+          "src/main/java/net/mcreator/lukas/entity/LukasEntity.java",
+          "src/main/java/net/mcreator/lukas/client/renderer/LukasRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Lukashouse",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lukashouse",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lukas/forge/biome_modifier/lukashouse_biome_modifier.json",
+          "src/main/java/net/mcreator/lukas/world/features/LukashouseFeature.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.lukas.lukas_spawn_egg": "Lukas Spawn Egg",
+      "entity.lukas.lukas": "Lukas"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "lukas",
+    "modName": "Lukas",
+    "version": "1.0.0",
+    "author": "MJC11, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.lukas",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
